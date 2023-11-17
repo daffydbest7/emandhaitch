@@ -39,7 +39,7 @@ return (
           <section className=''>  
           
           <div className="bg-[#191A24] min-h-screen">
-          <div className='font-bold text-2xl lg:text-3xl text-center text-white pt-10'>HEY THERE, WELCOME TO BAYELSA SUBEB</div>
+          <div className='font-bold text-2xl lg:text-3xl text-center text-white pt-10'>Hey There! Welcome To Bayelsa SUBEB</div>
           <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
             <span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest px-2 mt-[100px]">
               Site Will be live in :
@@ -94,10 +94,10 @@ return (
                 </span>
               </div>
             </div>
-            <div className='flex flex-row space-x-5 items-center'> 
-            <div className='text-white  pt-[200px]'> </div> 
+            <div className='flex flex-col space-y-5 lg:flex-row lg:space-x-5 lg:items-center'> 
+            <div className='text-white  pt-[100px] lg:pt-[200px]'> </div> 
             <div className='text-white text-xl lg:text-2xl'>Under Construction by : </div>
-            <img src={emandh_logo} alt='emandh_logo' />
+            <div><img src={emandh_logo} alt='emandh_logo' className='w-[150px] lg:w-[200px] rounded-lg hover:scale-105 duration-500'/></div>
             </div>
           </div>
           

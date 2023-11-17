@@ -94,7 +94,7 @@ return (
                 </span>
               </div>
             </div>
-            <div className='flex flex-col space-y-5 lg:flex-row lg:space-x-5 lg:items-center'> 
+            <div className='flex flex-col space-y-5 lg:flex-row lg:space-x-5 items-center'> 
             <div className='text-white  pt-[100px] lg:pt-[200px]'> </div> 
             <div className='text-white text-sm lg:text-2xl'>Under Construction by : </div>
             <div><img src={emandh_logo} alt='emandh_logo' className='w-[150px] lg:w-[200px] mx-auto rounded-lg hover:scale-105 duration-500'/></div>

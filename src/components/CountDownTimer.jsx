@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import emandh_logo from '../assets/emadh_logo.png';
 class CountDownTimer extends Component {
 state = {
      days: 0,
@@ -38,7 +39,7 @@ return (
           <section className=''>  
           
           <div className="bg-[#191A24] min-h-screen">
-          <div className='font-bold text-2xl lg:text-3xl text-center text-white pt-10'>HEY THERE, WELCOME TO SUBEBBY</div>
+          <div className='font-bold text-2xl lg:text-3xl text-center text-white pt-10'>HEY THERE, WELCOME TO BAYELSA SUBEB</div>
           <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
             <span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest px-2 mt-[100px]">
               Site Will be live in :
@@ -93,7 +94,11 @@ return (
                 </span>
               </div>
             </div>
-            <div className='text-white text-xl lg:text-2xl pt-[100px]'> Under Construction by : <span className='text-blue-500'> EMANDHAITCHICTHUB</span></div> 
+            <div className='flex flex-row space-x-5 items-center'> 
+            <div className='text-white  pt-[200px]'> </div> 
+            <div className='text-white text-xl lg:text-2xl'>Under Construction by : </div>
+            <img src={emandh_logo} alt='emandh_logo' />
+            </div>
           </div>
           
         </div>

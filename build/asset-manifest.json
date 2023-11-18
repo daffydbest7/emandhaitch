@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b16200c8.css",
+    "main.js": "/static/js/main.c135aa30.js",
+    "static/media/emadh_logo.png": "/static/media/emadh_logo.14d1af31c46b449f28d0.png",
+    "index.html": "/index.html",
+    "main.b16200c8.css.map": "/static/css/main.b16200c8.css.map",
+    "main.c135aa30.js.map": "/static/js/main.c135aa30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b16200c8.css",
+    "static/js/main.c135aa30.js"
+  ]
+}
